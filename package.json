@@ -1,0 +1,28 @@
+{
+  "name": "dns-cdk-example",
+  "version": "0.1.0",
+  "bin": {
+    "dns-cdk-example": "bin/dns-cdk-example.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "*",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "aws-cdk": "*",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.0.0-rc.7",
+    "@aws-cdk/assert": "^2.0.0-rc.7",
+    "constructs": "^10.0.0"
+  }
+}

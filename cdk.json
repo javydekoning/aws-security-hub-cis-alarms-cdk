@@ -1,0 +1,6 @@
+{
+  "app": "npx ts-node --prefer-ts-exts securityhub_stack.ts",
+  "context": {
+    "@aws-cdk/core:newStyleStackSynthesis": true
+  }
+}
